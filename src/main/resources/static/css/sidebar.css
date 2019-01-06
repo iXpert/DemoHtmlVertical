@@ -5,9 +5,9 @@
     font-weight: 200;
     background-color: #2e353d;
     position: fixed;
-    top: 10px;
-    width: 10%;
-    height: 99vh;
+    top: 0px;
+    width: 300px;
+    height: 99%;
     color: #e1ffff;
 }
 .nav-side-menu .brand {
@@ -27,6 +27,19 @@
     margin: 0px;
     line-height: 35px;
     cursor: pointer;
+    /*
+      .collapsed{
+         .arrow:before{
+                   font-family: FontAwesome;
+                   content: "\f053";
+                   display: inline-block;
+                   padding-left:10px;
+                   padding-right: 10px;
+                   vertical-align: middle;
+                   float:right;
+              }
+       }
+  */
 }
 .nav-side-menu ul :not(collapsed) .arrow:before,
 .nav-side-menu li :not(collapsed) .arrow:before {
