@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Bootstrap Sidebar with Thymeleaf</title>
+
+    <div th:replace="fragments/header :: header-css"/>
+</head>
+<body>
+<div th:replace="fragments/header :: header" />
+
+<div class="container" style="height: 90vh;"> <!-- this means the height of the container will be 80% of the Viewer Height -->
+
+    <h2>Demo HTML Landing Page</h2>
+</div>
+
+</div>
+
+<div th:replace="fragments/footer :: footer" />
+
+</body>
+</html>
